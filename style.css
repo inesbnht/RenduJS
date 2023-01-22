@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.rotation {
+    position: absolute;
+    top: 52%;
+    left: 0;
+    display: block;
+    animation: 3s infinite tourne;    
+}
+
+@keyframes tourne {
+    0%{
+        transform: rotate(0)
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+}
+
+.pac {
+    position:absolute;
+}
+.button3 {
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    border: 3px solid rgb(111, 28, 120);
+    background-color: rgb(0, 0, 0);
+    outline: none;
+    cursor: pointer;
+    width: 45%;
+    height: 15%;
+    font-size: 28px;
+    color: rgb(111, 28, 120);
+    font-weight: 800; 
+    margin-top: -300px;
+    margin-left: 350px;
+}
+
+.button {
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    border: 3px solid rgb(4, 26, 46);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    width: 20%;
+    height: 10%;
+    margin-left: 300px;
+    display: block;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 0, 0);
+    
+}
+
+.button:hover {
+    transition: 0.2s;
+    color: rgb(255, 255, 255);
+    background-color: rgb(98, 213, 125);
+}
+
+.button2 {
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    border: 3px solid rgb(4, 26, 46);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    width: 20%;
+    height: 10%;
+    margin-left: 700px;
+    display: block;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 0, 0);
+    
+}
+
+.button2:hover {
+    transition: 0.2s;
+    color: rgb(255, 255, 255);
+    background-color: rgb(164, 24, 24);
+}
+
+.fantome {
+    margin-left: 1250px;
+    margin-top: 500px;
+}
+
+.fantome2 {
+    position: fixed;
+    margin-right: 100;
+    margin-top: 400px;
+}
+
+.fantome3 {
+    position: fixed;
+    margin-left: -800px;
+    margin-top: 100px;
+}
+
+i1 {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
